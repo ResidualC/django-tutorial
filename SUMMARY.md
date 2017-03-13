@@ -6,5 +6,5 @@
   * Django的前世今生
   * 安装Django
   * 第一个Django项目
-* [第二章、Django模型层](di-er-zhang-3001-django-mo-xing-ceng.md)
+* [第二章、Django模型层](chapter2.md)
 
