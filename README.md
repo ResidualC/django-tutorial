@@ -1,6 +1,6 @@
 # 关于本书
 
-Django教程
+本书基于Django 1.10版本编写，主要参考Django官方文档（https://docs.djangoproject.com/en/1.10/），同时结合自己5年的Django开发经验编写。本书不会介绍Python，因此在阅读本书之前需要你有一定的Python经验。
 
 # 关于作者
 
