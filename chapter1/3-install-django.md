@@ -55,6 +55,18 @@ cd blog
 
 # 安装数据库
 
+Django支持许多不同的数据库服务器，目前主要有PostgreSQL，MySQL，SQLite和Oracle，除此之外Django还支持第三方的数据库Lib，比如MongoDB有mongokit。
+
+为了使用数据库功能，需要安装其中一种数据库；不同的数据库需要不同的Python Lib支持：
+
+| 数据库 | Python Lib |
+| :---: | :---: |
+| PostgreSQL | [psycopg2](https://pypi.python.org/pypi/psycopg2 "psycopg2") |
+| MySQL | [python-mysqldb](http://stackoverflow.com/questions/4960048/python-3-and-mysql) |
+| SQLite | Python自带 |
+| Oracle | [cx\_Oracle](http://xianglong.me/article/ubuntu-install-python-cx-oracle-DistutilsSetupError/ "cx\_Oracle") |
+| MongoDB | [mongokit](https://pypi.python.org/pypi/mongokit "mongokit") |
+
 # 安装Django
 
 ### 稳定版
@@ -62,6 +74,17 @@ cd blog
 ### 开发版
 
 # 验证
+
+Django安装之后，可以通过下面的代码验证，同时查看Django版本：
+
+```
+>>> import django
+>>> print(django.VERSION)
+(1, 10, 0, 'final', 1)
+>>> 
+```
+
+
 
 
 
