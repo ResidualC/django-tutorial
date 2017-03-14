@@ -19,6 +19,16 @@ Django运行依赖于Python环境，不同版本的Django对Python的版本要�
 
 在**windows系统**下，可以在[https://www.python.org/download/](https://www.python.org/download/) 下载最新版本的Python。
 
+在Python安装之后，可以通过下面的代码验证是否安装成功：
+
+```
+xianglong@ubuntu:~/blog$ python
+Python 3.4.3 (default, Nov 17 2016, 01:08:31) 
+[GCC 4.8.4] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 
+```
+
 # 安装pip
 
 pip是一个Python包的工具，Python安装包的工具有easy\_install，setuptools，pip，distribute等，使用这些工具都能下载并安装django。pip是easy\_install的替代品，在CPython解释器，PyPy解释器中都可以很好地管理Python包。
@@ -27,13 +37,9 @@ pip是一个Python包的工具，Python安装包的工具有easy\_install，setu
 
 # 使用virtualenv
 
-
-
 ```
 virtualenv -p python3 blog
 ```
-
-
 
 # 安装数据库
 
