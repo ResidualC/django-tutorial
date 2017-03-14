@@ -17,7 +17,7 @@ Django运行依赖于Python环境，不同版本的Django对Python的版本要�
 
 在**Linux系统**（Ubuntu、CentOS等）下，一般自带了Python环境，如果不是最新版本，你可以使用系统的包管理软件（apt-get、yum等）安装最新版本的Python。
 
-在**windows系统**下，可以在[Python官网](https://www.python.org/download/) 下载最新版本的Python。
+在**windows系统**下，可以在[Python官网](https://www.python.org/download/)下载最新版本的Python。
 
 在Python安装之后，可以通过下面的代码验证是否安装成功：
 
