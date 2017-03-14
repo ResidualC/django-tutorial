@@ -26,7 +26,7 @@ xianglong@ubuntu:~/blog$ python
 Python 3.4.3 (default, Nov 17 2016, 01:08:31) 
 [GCC 4.8.4] on linux
 Type "help", "copyright", "credits" or "license" for more information.
->>> 
+>>>
 ```
 
 # 安装pip
@@ -37,8 +37,20 @@ pip是一个Python包的工具，Python安装包的工具有easy\_install，setu
 
 # 使用virtualenv
 
+virtualenv是一个用来创建独立的Python开发环境的包。在实际项目开发中，不同项目可能使用不同版本的Python和Python Lib，使用virtualenv你可以非常容易地为每个项目建立地理的Python环境，然后安装项目所需的软件包到它们各自独立的环境中。
+
+你可以使用pip安装virtualenv
+
+```
+sudo pip install virtualenv
+```
+
+安装之后，可以通过下面的命令来为你的项目创建独立的Python环境
+
 ```
 virtualenv -p python3 blog
+cd blog
+. bin/activate    # 激活Python环境
 ```
 
 # 安装数据库
