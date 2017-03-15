@@ -7,4 +7,7 @@
   * [安装Django](chapter1/3-install-django.md)
   * [第一个Django项目](chapter1/4-first-django-project.md)
 * [第二章、Django模型层](chapter2.md)
+* [第三章、Django视图层 & URLConf](chapter3.md)
+* [第四章、Django模板](chapter4.md)
+* [第五章、Django Admin站点](chapter5.md)
 

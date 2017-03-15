@@ -22,3 +22,13 @@
 
 ![](/assets/alipay.jpg)
 
+# 参考资料
+
+* [Django Documentation](https://docs.djangoproject.com/en/1.10/ "Django Documentation")
+* [Django Girls 教程](https://tutorial.djangogirls.org/zh/ "Django Girls 教程")
+* [Django Book](http://djangobook.com/ "Django Book")
+* [Tango With Django](http://www.tangowithdjango.com/book17/ "Tango With Django")
+* [Django 1.8.2中文文档](http://python.usyiyi.cn/django/index.html "Django 1.8.2中文文档")
+
+
+
