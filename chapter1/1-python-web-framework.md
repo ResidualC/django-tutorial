@@ -1,10 +1,10 @@
-# Python WEB框架
+# Python WEB 框架
 
-不少人在提及Python语言的时候，第一感觉它是“运维”用的脚本语言，熟不知Python在Web开发方面也毫不逊色其他语言，仅从Web框架种类上就可见一斑。Python Web框架的不完全列表见：[Python Web Frameworks](https://wiki.python.org/moin/WebFrameworks "WebFrameworks")
+不少人在提及 Python 语言的时候，第一感觉它是“运维”用的脚本语言，熟不知 Python 在 Web 开发方面也毫不逊色其他语言，仅从 Web 框架种类上就可见一斑。Python Web 框架的不完全列表见：[Python Web Frameworks](https://wiki.python.org/moin/WebFrameworks "WebFrameworks")
 
-其中主流的Web框架主要有Django、Tornado、Flask、Web.py、Bottle、CherryPy等，它们各自有自己的适用场景，选择时需要根据实际的项目需求和场景决定。
+其中主流的 Web 框架主要有 Django、Tornado、Flask、Web.py、Bottle、CherryPy 等，它们各自有自己的适用场景，选择时需要根据实际的项目需求和场景决定。
 
-几个主流Web框架对比如下：
+几个主流 Web 框架对比如下：
 
 | Web框架 | 特点 |
 | :--- | :--- |

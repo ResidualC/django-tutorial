@@ -1,6 +1,6 @@
 # 前世
 
-Django项目开始于2003年秋天，最初由Lawrence Journal-World 报纸的 程序员 Adrian Holovaty 和 Simon Willison 用 Python 来编写程序；他们再2005年7月时发布项目并取名为Django，名字来源于一个著名的爵士乐吉他演奏家 Django Reinhardt。
+Django 项目开始于 2003 年秋天，最初由 Lawrence Journal-World 报纸的 程序员 Adrian Holovaty 和 Simon Willison 用 Python 来编写程序；他们再 2005 年 7 月时发布项目并取名为 Django，名字来源于一个著名的爵士乐吉他演奏家 Django Reinhardt。
 
 # 今生
 
