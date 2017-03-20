@@ -50,6 +50,8 @@ sudo pip install virtualenv
 ```
 virtualenv -p python3 blog
 cd blog
+source bin/activate
+# 或者
 . bin/activate    # 激活Python环境
 ```
 
@@ -71,7 +73,29 @@ Django 支持许多不同的数据库服务器，目前主要有 PostgreSQL，My
 
 ### 稳定版
 
+前面我们已经安装了 pip，我们可以使用 pip 安装 Django 稳定版本。如果你使用了 virtualenv，按照以下方式安装：
+
+```
+cd blog
+. bin/activate
+pip install django==1.10
+```
+
+如果没有使用 virtualenv，则运行下面的代码安装：
+
+```
+sudo pip install django==1.10
+```
+
 ### 开发版
+
+如果你想使用 Django 最新的功能，可以安装 Django 开发版本，方法如下：
+
+```
+git clone https://github.com/django/django.git django-dev
+# 或者直接下载：https://github.com/django/django/archive/master.zip
+sudo pip install -e django-dev/  # 如果使用 virtualenv，则省略 sudo
+```
 
 # 验证
 
